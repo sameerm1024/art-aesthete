@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+.font-cormorant { font-family: 'Cormorant Garamond', serif; }
+
+@import "tailwindcss";
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #F5F1EB;
+  color: #2C2C2C;
+}
+
+
+.floating-element { 
+    animation: float 6s ease-in-out infinite;
+}
+
+.bg-warm-beige { background-color: #F5F1EB; }
+.bg-dusty-rose { background-color: #D4A5A5; }
+.bg-muted-brown { background-color: #8B6F47; }
+.bg-warm-cream { background-color: #FDF8F3; }
+
+.text-charcoal { color: #2C2C2C; }
+.text-dusty-rose { color: #D4A5A5; }
+.text-muted-brown { color: #8B6F47; }
+
+.border-dusty-rose { border-color: #D4A5A5; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
