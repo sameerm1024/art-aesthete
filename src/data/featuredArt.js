@@ -3,7 +3,7 @@ export const featuredArt = [
     id: 1,
     title: "Birthday Card",
     category: "Greeting Card",
-    image: "../public/images/birthay_card.jpg",
+    image: "/images/birthay_card.jpg",
     description: "A vibrant birthday card design that captures the joy of celebration with colorful illustrations and heartfelt messages."
   },
   {
