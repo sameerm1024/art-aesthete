@@ -13,7 +13,7 @@ const About = () => {
             {/* Image */}
             <div className="rounded-2xl overflow-hidden shadow-2xl w-full max-w-sm">
                 <img 
-                src="../public/me/me.jpg" 
+                src="/me/me.jpg" 
                 alt="Artist" 
                 className="w-full h-auto object-cover"
                 />

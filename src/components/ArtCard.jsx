@@ -9,7 +9,7 @@ const ArtCard = ({title,image,category}) => (
         <div className='p-6'>
             <h3 className='font-coromorant text-xl font-semibold text-charcoal mb-2'>{title}</h3>
             <p className='text-gray-600 mb-2'>{category}</p>
-            <button className='bg-amber-300 text-white px-4 py-2 rounded-lg hover:bg-amber-200 transition-colors'>View Details</button>
+            <button className='bg-[#8B6F47] text-white px-4 py-2 rounded-lg hover:bg-[#b2a99d] transition-colors'>View Details</button>
         </div>
     </div>
 );
