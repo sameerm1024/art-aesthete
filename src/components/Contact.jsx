@@ -10,7 +10,7 @@ const Contact = () => {
             </h2>
             <p className='font-montserrat text-stone-200 mb-12 max-w-2xl mx-auto'>
                 If my work speaks to you, and you’d like to bring a piece into your world or know more about what’s 
-                available — I’d be truly happy to hear from you’d.
+                available — I’d be truly happy to hear from you.
             </p>
 
             <div className='flex justify-center gap-8 mb-12 flex-wrap'>

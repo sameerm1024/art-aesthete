@@ -1,5 +1,5 @@
 import React from 'react'
-import {Star} from 'lucide-react'
+import {Heart} from 'lucide-react'
 
 const About = () => {
   return (
@@ -34,8 +34,8 @@ const About = () => {
                 </p>
 
                 <div className="flex items-center gap-3">
-                <Star className="text-dusty-rose" size={20} />
-                <span>Crazy in love with LOLO MOWAA</span>
+                <Heart className="text-dusty-rose" size={20} />
+                <span>With heart in every stroke - Sreeya</span>
                 </div>
             </div>
             
